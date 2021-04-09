@@ -1,0 +1,52 @@
+header {
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.timer,
+.blink-white,
+.blink-black{
+    width: auto;
+    height: auto;
+    font-size: 40px;
+}
+
+.hours {
+    color: blue;
+}
+
+.minutes {
+    color: blueviolet;
+}
+
+.seconds {
+    color: brown;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    background-color: gray;
+    color: white;
+    width: 200px;
+    cursor: pointer;
+    padding-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0 10px 5px black;
+}
+li{
+    margin-top: 5px;
+    border-bottom: 1px solid black;
+    background-color: lightgrey;
+    color: black;
+    list-style: none;
+}
+
+.blink-white{
+    color: transparent;
+}
+.blink-black{
+    color: black;
+}
