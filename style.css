@@ -1,16 +1,14 @@
 header {
-    max-width: 300px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.timer,
-.blink-white,
-.blink-black{
+.timer{
     width: auto;
     height: auto;
     font-size: 40px;
+    
 }
 
 .hours {
